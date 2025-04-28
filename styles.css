@@ -54,3 +54,9 @@ footer {
     background: #2d3e50;
     color: #fff;
 }
+
+/* This part should be outside the footer block */
+img {
+    max-width: 100%;
+    height: auto;
+}
