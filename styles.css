@@ -39,9 +39,14 @@ h2 {
     margin-bottom: 20px;
 }
 
-.project img {
-    width: 100%;
-    max-width: 400px;
+.image-gallery {
+    display: flex;
+    gap: 20px;  /* Space between images */
+    justify-content: center;  /* Center images horizontally */
+}
+
+.image-gallery img {
+    width: 30%;  /* Adjust this percentage to control the size of the images */
     height: auto;
     border-radius: 8px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
@@ -55,8 +60,3 @@ footer {
     color: #fff;
 }
 
-/* This part should be outside the footer block */
-img {
-    max-width: 100%;
-    height: auto;
-}
